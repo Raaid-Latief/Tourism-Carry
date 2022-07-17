@@ -1,0 +1,103 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "city": "Cape Town",
+      "img": "https://smile904.fm/wp-content/uploads/2020/08/capetown.jpg",
+      "description": "Table Mountain, Boulders Beach, SLave Lodge Museum",
+      "cultures": "Afrikaans, Xhosa, English,"
+    },
+    {
+      "id": 2,
+      "city": "Durban",
+      "img": "https://www.bookmymove.co.za/wp-content/uploads/2021/03/1491594077164.jpeg",
+      "description": "Golden Mile, Durban Botanic Gardens, uShaka Marine World",
+      "cultures": "English, Zulu, Xhosa"
+    },
+    {
+      "id": 3,
+      "city": "Pretoria",
+      "img": "https://i.im.ge/2022/07/08/uk6o1K.jpg",
+      "description": "National Zoological Gardens of South Africa, Union Buildings, Voortrekker Monument, Ditsong  Museums of South Africa",
+      "cultures": "Afrikaans, Englsih, Northern Sotho, Tswana"
+    },
+    {
+      "id": 4,
+      "city": "Kimberley",
+      "img": "https://img.traveltriangle.com/blog/wp-content/uploads/2019/03/Cover-Bloukrans-Bridge-Bungyepb0310.jpg",
+      "description": "The Big Hole, McGregor Museum, William Humpherys Art Gallery.",
+      "cultures": "Afrikaans, Tswana, English"
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "fullname": "Selby",
+      "email": "selbysabelomdashe@gmail.com",
+      "password": "selby007"
+    },
+    {
+      "id": 2,
+      "fullname": "Natheerah",
+      "email": "",
+      "password": "natheerah12"
+    },
+    {
+      "id": 3,
+      "fullname": "Raaid",
+      "email": "",
+      "password": "raaid47"
+    },
+    {
+      "id": 4,
+      "fullname": "Live",
+      "email": "saliwalive@gmail.com",
+      "password": "live329"
+    },
+    {
+      "id": 5,
+      "fullname": "Lecturer",
+      "email": "",
+      "password": "lecturer2022"
+    }
+  ],
+  "feedback": [
+    {
+      "commentid": "1",
+      "message": "lorem ipsum",
+      "name": ""
+    }
+  ],
+  "bigfive": [
+    {
+      "id": 1,
+      "animal": "Lion",
+      "image": "https://i.im.ge/2022/07/08/ukPJXP.jpg",
+      "video": "Video URL"
+    },
+    {
+      "id": 2,
+      "animal": "Elephant",
+      "image": "https://i.im.ge/2022/07/08/ukNJ4S.jpg",
+      "video": "Video URL"
+    },
+    {
+      "id": 3,
+      "animal": "Leopard",
+      "image": "https://cdn.pixabay.com/photo/2021/09/16/11/30/leopard-6629858_960_720.jpg",
+      "video": "Video URL"
+    },
+    {
+      "id": 4,
+      "animal": "African Buffalo",
+      "image": "https://i.im.ge/2022/07/08/ukNBt6.jpg",
+      "video": "Video URL"
+    },
+    {
+      "id": 5,
+      "animal": "Rhino",
+      "image": "https://i.im.ge/2022/07/08/ukNBt6.jpg",
+      "video": "Video URL"
+    }
+  ]
+}
