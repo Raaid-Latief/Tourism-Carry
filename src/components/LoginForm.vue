@@ -9,7 +9,7 @@
     <div class="container shadow">
       <form @submit.prevent="login">
       <div>
-         <h3 class="p-2">Admin Login</h3>
+         <h3 class="p-2 text-danger display-5">Admin Login</h3>
       </div>
         <input
           type="email"
@@ -31,7 +31,7 @@
         </div>
         <button
           type="submit"
-          class="button rounded-pill mt-3 p-1"
+          class="button rounded-pill mt-3"
           @click="goToAdmin">
           Login
         </button>
@@ -80,7 +80,6 @@ export default {
 };
 </script>
 <style>
-
 form {
   display: flex;
   flex-direction: column;
@@ -113,9 +112,9 @@ form {
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-image: linear-gradient(to right top, #002762, #4e226d, #840666, #ae004e, #c60629);
+  background-image: linear-gradient(to right top, #002762, #4e226d, #840666, #ae004e, #c60629);;
   border: none;
-  border-radius: 15px;
+  border-radius: 9px;
   box-shadow: 0 9px #999;
 }
 .button:hover {background-image: linear-gradient(to right top, #420101, #2b0646, #4d043c, #e7247c, #36020c);}

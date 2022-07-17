@@ -6,7 +6,7 @@
     <br>
     <br>
     <br>
-    <h1 class="booking-head">Reservation Bookings</h1>
+    <h1 class="booking-head text-danger display-2">Reservation Bookings</h1>
     <h5>Reservation Details</h5>
     <form action="https://formspree.io/f/mvoljqra" method="POST">
       <div class="row">
@@ -81,9 +81,9 @@
             <input class="form-control" type="number" name="number" required />
           </label>
         </div>
-        <div class="submit">
-          <button type="submit" class="form-control">submit</button>
-        </div>
+        <div class="p-5">
+<button class="button" style="vertical-align:middle"><span>Book now</span></button>
+</div>
       </div>
     </form>
   </div>
@@ -95,15 +95,7 @@ export default {};
 input.form-control {
   width: 15rem;
 }
-button.form-control {
-  width: 15rem;
-}
-.submit {
-  display: flex;
-  /* align-content: stretch; */
-  justify-content: center;
-  padding-top: 2rem;
-}
+
 .col-md-6 {
   padding-top: 2rem;
 }
@@ -122,6 +114,47 @@ div#app {
     display: flex;
     justify-content: center;
   }
+}
+/* button */
+.button {
+  display: inline-block;
+  border-radius: 4px;
+background-image: linear-gradient(to right bottom, #000062, #65006a, #a70062, #db004e, #ff002e);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 150px;
+  height: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 </style>
 

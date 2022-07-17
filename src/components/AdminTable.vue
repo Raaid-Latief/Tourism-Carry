@@ -6,11 +6,9 @@
     <br>
     <br>
     <br>
-    <h2 class="text-center">Admin Page</h2>
+    <br>
+    <h3 class="text-center display-2">Admin Page</h3>
     <div class="row text-display">
-
-
-
 
 
  <!-- <option value="All">All</option>

@@ -19,14 +19,8 @@
          </div>
   <div class="container d-flex justify-content-center align-item-center ">
     <div class="center">
-      <button  class="btn" @click="goToAdmin">
-        <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-          <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-        </svg>
-        <span class="explore">Explore</span>
-      </button>
-    </div>
+ <button class="button" style="vertical-align:middle"><span>Explore </span></button>
+  </div>
   </div>
       </v-col>
     </v-row>
@@ -65,35 +59,44 @@ export default {
   height: 60px;
   position: absolute;
 }
-.btn {
-  width: 180px;
-  height: 60px;
-  cursor: pointer;
-  background: transparent;
-  outline: none;
-  transition: 1s ease-in-out;
-}
-svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  fill-opacity: 35%;
-  stroke: rgb(85, 11, 11);
-  stroke-dasharray: 150 480;
-  stroke-dashoffset: 150;
-  transition: 1s ease-in-out;
-}
-.btn:hover {
-  transition: 1s ease-in-out;
- background-image: linear-gradient(to right top, #002762, #4e226d, #840666, #ae004e, #c60629);
-}
-.btn:hover svg {
-  stroke-dashoffset: -480;
-}
-.btn span {
-  color: rgb(255, 255, 255);
+.button {
+  display: inline-block;
+  border-radius: 4px;
+background-image: linear-gradient(to right bottom, #000062, #65006a, #a70062, #db004e, #ff002e);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
   font-size: 28px;
- 
+  padding: 18px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 #landing{
   background-image: url(https://i.im.ge/2022/07/08/ukwBGS.jpg);
